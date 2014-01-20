@@ -1,4 +1,4 @@
-# One line installer for Ruby 1.9.3, Phusion Passenger and Nginx on Ubuntu 12.04 LTS
+# One line installer for Ruby 2.1.0, Phusion Passenger and Nginx on Ubuntu 12.04 LTS
 
 This script will install an Nginx/Passenger/Ruby web stack to run Rails apps. This was written for and tested with Ubuntu 12.04 LTS on Amazon EC2. 
 
@@ -37,6 +37,7 @@ sudo service nginx restart
 
 ### Credits
 
+* A fork of the project [ruby-passenger-nginx-installer](https://github.com/ballistiq/ruby-passenger-nginx-installer)
 * The base of this came from [Chris Oliver](http://excid3.com/blog/setting-up-ubuntu-12-04-with-ruby-1-9-3-nginx-passenger-and-postgresql-or-mysql/).
 * The Nginx start/stop init.d script came from [Linode](http://library.linode.com/).
 * The Nginx ubuntu log rotation config came from [Mell Zamora](http://www.mellzamora.com/installing-nginx-on-ubuntu-and-debian/)
