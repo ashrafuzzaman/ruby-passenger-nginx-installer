@@ -16,6 +16,9 @@ sudo apt-get -y install zip unzip imagemagick
 # MySQL headers. Required by mysql2 gem
 sudo apt-get -y install libmysql++-dev
 
+# Needed for nokogiri
+sudo apt-get -y install libxslt-dev libxml2-dev
+
 # Install Ruby
 
 if ! type ruby > /dev/null; then
